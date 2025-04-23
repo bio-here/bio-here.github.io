@@ -1,4 +1,4 @@
 
 # Bio-Here
 
-A series of bioinformatics toolkits
+This is the static page of Bio-Here.

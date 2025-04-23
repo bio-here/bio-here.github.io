@@ -4,17 +4,17 @@ layout: home
 
 hero:
   name: "Bio-Here"
-  text: "A series of bioinformatics toolkits"
-  tagline: Easy to use, fast and efficient
+  text: "一系列生物信息学软件"
+  tagline: 简单，快速且高效
   image:
     src: /icon_text.png
     alt: Logo
   actions:
     - theme: brand
-      text: Our Projects
+      text: 查看项目
       link: /project
     - theme: alt
-      text: Read document
+      text: 阅读文档
       link: /document
     - theme: alt
       text: GitHub
@@ -22,15 +22,15 @@ hero:
 features:
   - icon: S
     title: Seq-Here
-    details: A fast bio-sequence process toolkit
+    details: 一个快速的生物序列处理工具
     link: https://bio-here.github.io/seq-here
     target: _blank
   - icon: B
     title: Bio-Here
-    details: Fast and stable bioinformatics center
+    details: 快速稳定的图形化生信工具
     link: /
     target: _self
 ---
 
-> [!WARNING]
-> Building
+> [!Warning]
+> 正在搭建中
