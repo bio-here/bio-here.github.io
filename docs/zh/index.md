@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 查看项目
-      link: /project
+      link: /zh/project
     - theme: alt
       text: 阅读文档
-      link: /document
+      link: /zh/document
     - theme: alt
       text: GitHub
       link: https://github.com/bio-here/

@@ -37,6 +37,8 @@ export default defineConfig({
         }
       }
     },
+    
+    // 默认导航和侧边栏（英文）
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Project', link: '/project' },
@@ -59,7 +61,7 @@ export default defineConfig({
         ]
       }
     ],
-
+    
     socialLinks: [
       { icon: 'github', link: 'https://github.com/bio-here' }
     ],
@@ -68,18 +70,43 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2025-present bio-here'
     }
-
   },
 
   locales: {
     root: {
       label: 'English',
       lang: 'en',
+      themeConfig: {
+        // 英文主题配置已在上面默认设置中定义
+      }
     },
     zh: {
       label: '简体中文',
       lang: 'zh',
       link: '/zh/',
+      themeConfig: {
+        nav: [
+          { text: '首页', link: '/zh/' },
+          { text: '项目', link: '/zh/project' },
+          { text: '文档', link: '/zh/document' }
+        ],
+        sidebar: [
+          {
+            text: '项目',
+            items: [
+              { text: '项目总览', link: '/zh/project' },
+              { text: 'Bio-Here', link: '/zh/project/bio-here' },
+              { text: 'Seq-Here', link: '/zh/project/seq-here' },
+            ]
+          },
+          {
+            text: '文档',
+            items: [
+              { text: '文档总览', link: '/zh/document' },
+            ]
+          }
+        ]
+      }
     }
   }
 
