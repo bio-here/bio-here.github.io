@@ -20,17 +20,19 @@ hero:
       text: GitHub
       link: https://github.com/bio-here/
 features:
-  - icon: S
+  - icon: 😽
+    title: Placecare
+    details: Find cis-acting regulatory elements with PLACE database.
+    link: https://bio-here.github.io/placecare
+    target: _blank
+  - icon: 😼
     title: Seq-Here
     details: A fast bio-sequence process toolkit
     link: https://bio-here.github.io/seq-here
     target: _blank
-  - icon: B
+  - icon: 🚵‍♀️
     title: Bio-Here
     details: Fast and stable bioinformatics center
     link: /
     target: _self
 ---
-
-> [!WARNING]
-> Building
