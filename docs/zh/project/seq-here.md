@@ -4,8 +4,10 @@ footer: true
 ---
 
 # seq-here😼
-| [![GitHub](https://img.shields.io/badge/github-bio--here%2Fseq--here-blue.svg)](https://github.com/bio-here/seq-here) | [![Crates.io](https://img.shields.io/crates/v/seq-here.svg)](https://crates.io/crates/seq-here) | [![Documentation](https://docs.rs/seq-here/badge.svg)](https://docs.rs/seq-here) | [![License](https://img.shields.io/crates/l/MIT.svg)]() |
+| [![GitHub](https://img.shields.io/badge/github-bio--here%2Fseq--here-blue.svg?style=for-the-badge)](https://github.com/bio-here/seq-here?style=for-the-badge) | [![Crates.io](https://img.shields.io/crates/v/seq-here.svg?style=for-the-badge)](https://crates.io/crates/seq-here) | [![Documentation](https://img.shields.io/docsrs/seq-here/latest?style=for-the-badge)](https://docs.rs/seq-here) | [![License](https://img.shields.io/crates/l/MIT.svg?style=for-the-badge)]() |
 | --- | --- | --- | --- |
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/bio-here/seq-here)
 
 ***seq-here*** 是一个用于生物序列文件处理的快速工具。
 

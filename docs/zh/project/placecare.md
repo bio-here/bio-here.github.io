@@ -4,14 +4,16 @@ footer: true
 ---
 
 # placecare😽
-| [![GitHub](https://img.shields.io/badge/github-bio--here%2Fplacecare-blue.svg)](https://github.com/bio-here/placecare) | [![Crates.io](https://img.shields.io/crates/v/placecare.svg)](https://crates.io/crates/placecare) | [![Documentation](https://docs.rs/placecare/badge.svg)](https://docs.rs/placecare) | [![License](https://img.shields.io/crates/l/MIT.svg)]() |
+| [![GitHub](https://img.shields.io/badge/github-bio--here%2Fplacecare-blue.svg?style=for-the-badge)](https://github.com/bio-here/placecare) | [![Crates.io](https://img.shields.io/crates/v/placecare?style=for-the-badge)](https://crates.io/crates/placecare) | [![Documentation](https://img.shields.io/docsrs/placecare/latest?style=for-the-badge)](https://docs.rs/placecare) | [![License](https://img.shields.io/crates/l/MIT.svg?style=for-the-badge)]() | 
 | --- | --- | --- | --- |
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/bio-here/placecare)
 
 ***placecare*** 是一个使用 [PLACE数据库](https://www.dna.affrc.go.jp/PLACE/?action=newplace) 基于字符串搜索算法预测顺式作用元件的工具。
 
 使用 placecare，你可以：
 
-1. 上传序列文件搜索顺式作用元件。
+1. 通过序列文件或片段搜索顺式作用元件。
 
 2. 通过 PLACE 数据库的 id 和 ac 快速获取相关信息
 （数据来自 PLACE 官网提供的 place.seq 文件）
